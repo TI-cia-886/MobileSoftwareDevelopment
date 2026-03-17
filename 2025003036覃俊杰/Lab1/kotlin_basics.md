@@ -226,7 +226,7 @@ fun main() {
     val id = "2025003036"
 
     val qinjunjieDelivery = "Deliver"  
-
+    
     println("Package for " + name + " will " + qinjunjieDelivery + ", tracking ID: " + id + ".")
 }
 
@@ -264,7 +264,7 @@ fun main() {
     val bonus = 6                       
     val total = score + bonus
 
-    
+
     println("Name: $studentName")
     println("Score: $score, Bonus: $bonus")
     println("Total: $total")
@@ -419,7 +419,7 @@ fun main() {
     } else {
         "First and second are equal."
     }
-
+    
     println(result)
 }
 ---
@@ -462,10 +462,10 @@ fun main() {
 // 请将完整代码粘贴至此
 ```
 fun main() {
-    printZhangweiWeather("Ankara", 27, 31, 82)
-    printZhangweiWeather("Tokyo", 32, 36, 10)
-    printZhangweiWeather("Cape Town", 59, 64, 2)
-    printZhangweiWeather("Guatemala City", 50, 55, 7)
+    printQinjunjieWeather("Ankara", 27, 31, 82)
+    printQinjunjieWeather("Tokyo", 32, 36, 10)
+    printQinjunjieWeather("Cape Town", 59, 64, 2)
+    printQinjunjieWeather("Guatemala City", 50, 55, 7)
 }
 
 fun printQinjunjieWeather(city: String, low: Int, high: Int, rainChance: Int) {
